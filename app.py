@@ -9,7 +9,6 @@ from sklearn.preprocessing import MinMaxScaler
 from keras.models import sequential
 from keras.layers import Dense , LSTM
 from keras.models import Sequential
-from torch import inner
 plt.style.use("fivethirtyeight")
 import datetime
 from datetime import  timedelta
