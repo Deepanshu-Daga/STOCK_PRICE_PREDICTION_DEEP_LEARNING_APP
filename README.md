@@ -1,1 +1,1 @@
-# Stock_Price_Prediction_Deeplearning_Apping
+# Stock_Price_Prediction_Deeplearning_App
