@@ -36,7 +36,7 @@ option = st.selectbox('View Total Models Currently available',('HEROMOTOCO.NS_15
 st.write("You Can See All Models  In Above Tab But To Apply Them Please Enter Stock Name And Preffered Days From Below")
 
 # askimg for a  user input   and by default it will be HDFCBANK.NS
-stock_name= st.text_input('Enter the Stock Ticker : ' , 'HDFC.NS')
+stock_name= st.text_input('Enter the Stock Ticker In Caps : ' , 'HDFC.NS')
 step_size= st.text_input('Enter the no of future days you want to predict For : ' , '60')
 
 step_size = int(step_size)
