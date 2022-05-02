@@ -154,7 +154,7 @@ y_predictions = scaler.inverse_transform(y_predictions)        # Undo the scalin
 # lower value of rmse is better : try diff range of dataset 
 
 rmse = np.sqrt(np.mean(y_predictions - y_test)**2)
-st.subheader('Root mean square error in predicted vs actual values')
+st.subheader('Root Mean Square Error In Predicted Vs Actual Values')
 st.write(rmse)
     
     
